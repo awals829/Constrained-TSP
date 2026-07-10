@@ -1,6 +1,6 @@
 ## Overview of the Problem
 
-This project implements a **pathfinding algorithm** where the traversal between nodes is constrained by **available energy**. The nodes are represented in a 3D cartesian space, and the cost of moving between nodes is determined by a combination of:
+This project implements and solves a **pathfinding algorithm problem** where the traversal between nodes is constrained by **available energy**. The nodes are represented in a 3D cartesian space, and the cost of moving between nodes is determined by a combination of:
 - **Euclidean distance** between nodes.
 - A **gradient scalar** based on the z-axis difference constrained between the values on the open interval (0,2).
 
